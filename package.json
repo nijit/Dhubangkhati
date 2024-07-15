@@ -1,0 +1,23 @@
+{
+  "name": "dhubangkhati",
+  "version": "1.0.0",
+  "description": "Dhubang khati private limited project",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "winston": "^3.3.3",
+    "helmet": "^4.4.1",
+    "cors": "^2.8.5",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
